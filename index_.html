@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clash Week - Base</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://via.placeholder.com/40x40.png?text=CR" alt="logo" class="me-2 rounded">
+        ClashFan
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cards">Cartas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#arena">Arena</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="home" class="hero text-white text-center d-flex align-items-center">
+    <div class="container py-5">
+      <h1 class="display-5 fw-bold">Clash Royale Fanbase</h1>
+      <p class="lead mb-4">Uma base simples e organizada para um site com tema Clash Royale — construída com Bootstrap.</p>
+      <div>
+        <a href="#cards" class="btn btn-warning btn-lg me-2">Ver Cartas</a>
+        <a href="#sobre" class="btn btn-outline-light btn-lg">Saiba Mais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cards section -->
+  <section id="cards" class="py-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="h3">Cartas em Destaque</h2>
+        <small class="text-muted">Exemplo de grid usando Bootstrap</small>
+      </div>
+
+      <div class="row g-4">
+        <!-- Card item (repetir conforme necessário) -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x200.png?text=Gigante" class="card-img-top" alt="Gigante">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Gigante</h5>
+              <p class="card-text text-muted mb-4">Tanque de alto ponto de vida que ataca construções.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center">
+                <span class="badge bg-primary">Épica</span>
+                <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cardModal" data-card="Gigante">Detalhes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x200.png?text=Arqueiras" class="card-img-top" alt="Arqueiras">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Arqueiras</h5>
+              <p class="card-text text-muted mb-4">Trio de atacantes de longo alcance, úteis contra tropas aéreas e terrestres.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center">
+                <span class="badge bg-success">Comum</span>
+                <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cardModal" data-card="Arqueiras">Detalhes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x200.png?text=Mago" class="card-img-top" alt="Mago">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Mago</h5>
+              <p class="card-text text-muted mb-4">Ataca em área com dano mágico.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center">
+                <span class="badge bg-danger">Raro</span>
+                <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cardModal" data-card="Mago">Detalhes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/400x200.png?text=Balão" class="card-img-top" alt="Balão">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Balão</h5>
+              <p class="card-text text-muted mb-4">Ataca diretamente construções com alto dano.</p>
+              <div class="mt-auto d-flex justify-content-between align-items-center">
+                <span class="badge bg-warning text-dark">Lendária</span>
+                <button class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cardModal" data-card="Balão">Detalhes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Card items -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Arena / features -->
+  <section id="arena" class="bg-light py-5">
+    <div class="container">
+      <h2 class="h3 mb-3">Arena & Estratégias</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 border rounded">
+            <h5>Estratégias Básicas</h5>
+            <p class="mb-0 text-muted">Dicas rápidas sobre gestão de elixir, posicionamento de tropas e contra-ataques.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 border rounded">
+            <h5>Decks Populares</h5>
+            <p class="mb-0 text-muted">Exemplos de composições de deck para várias arenas e estilos de jogo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <h2 class="h3 mb-3">Sobre este projeto</h2>
+      <p class="text-muted">Base simples para começar um site de fã de Clash Royale. Feito com Bootstrap 5 para facilitar a customização. Estrutura organizada em HTML, CSS e JS externos.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto bg-dark text-white py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <div>© <span id="year"></span> ClashFan • Feito com Bootstrap</div>
+      <div>
+        <a href="#" class="text-white me-3">Política</a>
+        <a href="#" class="text-white">Contato</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Card Modal -->
+  <div class="modal fade" id="cardModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Detalhes da Carta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <h6 id="modalCardTitle">Nome</h6>
+          <p id="modalCardDesc" class="text-muted">Descrição da carta...</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JS bundle (inclui Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
