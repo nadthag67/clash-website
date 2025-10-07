@@ -1,0 +1,38 @@
+/* styles.css - customizações para a base Clash Royale */
+
+/* Hero com fundo temático (use imagem sua se tiver) */
+.hero {
+    background: linear-gradient(180deg, rgba(6,21,41,0.9), rgba(11,46,77,0.85)), url('https://images.unsplash.com/photo-1601043232859-1f5a3b3f1b61?q=80&w=1600&auto=format&fit=crop&crop=faces') center/cover no-repeat;
+    min-height: 48vh;
+  }
+  
+  /* Ajustes de contraste para textos sobre imagens */
+  .hero .lead {
+    opacity: 0.95;
+  }
+  
+  /* Card images fixas para manter layout */
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Sutil hover nas cartas */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.18s ease;
+  }
+  
+  /* Footer link hover */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade extras */
+  @media (max-width: 576px) {
+    .hero {
+      padding: 3rem 1rem;
+      min-height: 38vh;
+    }
+  }
+  
