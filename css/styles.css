@@ -1,0 +1,130 @@
+body, .navbar-brand, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bangers', cursive;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.custom-hero-bg {
+  background: #fffbe6; /* Exemplo de fundo claro, altere como quiser */
+}
+
+.clash-hero-container {
+  background: linear-gradient(135deg, #aee2ff 0%, #e0f7fa 100%);
+  border: 4px solid #4fc3f7;
+  box-shadow: 0 4px 24px 0 rgba(80, 170, 255, 0.15);
+}
+
+.text-orange-outline {
+  color: #ff9800;
+  text-shadow: 2px 2px 0 #fff, 0 0 8px #ff9800;
+  font-family: 'Bangers', cursive;
+}
+
+.clash-crown svg {
+  vertical-align: middle;
+  margin-bottom: 6px;
+  filter: drop-shadow(0 2px 2px #c9a100);
+}
+
+body {
+  background: linear-gradient(135deg, #aee2ff 0%, #e0f7fa 100%);
+}
+.navbar {
+  background: linear-gradient(90deg, #0d1a3a 80%, #1976d2 100%);
+  border-bottom: 4px solid #1976d2;
+}
+.navbar-brand, .navbar .btn, .navbar .nav-link {
+  font-family: 'Bangers', cursive;
+  color: hsl(59, 91%, 55%);
+  -webkit-text-stroke: 0px transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.12);
+  letter-spacing: 0.4px;
+}
+.navbar .btn {
+  background: #e0f7fa;
+  border: 2px solid #1976d2;
+  color: #ffd9a6 !important; /* texto dos botões na navbar em laranja clarinho */
+  box-shadow: 0 2px 8px rgba(80,170,255,0.10);
+}
+.navbar .btn-warning {
+  background: #ffd54f;
+  color: #c9a100;
+  border-color: #c9a100;
+}
+.navbar .btn-primary {
+  background: #4fc3f7;
+  color: #fff;
+  border-color: #1976d2;
+}
+.navbar .btn-success {
+  background: #81d4fa;
+  color: #388e3c;
+  border-color: #388e3c;
+}
+.navbar .btn-info {
+  background: #b3e5fc;
+  color: #0288d1;
+  border-color: #0288d1;
+}
+.hero.custom-hero-bg {
+  background: linear-gradient(135deg, #aee2ff 0%, #e0f7fa 100%);
+}
+.card {
+  background: linear-gradient(135deg, #e0f7fa 60%, #aee2ff 100%);
+  border: 3px solid #4fc3f7;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(80,170,255,0.10);
+}
+.card-title {
+  font-family: 'Bangers', cursive;
+  color: #1976d2;
+  text-shadow: 1px 1px 0 #fff, 0 0 4px #4fc3f7;
+}
+.card-text {
+  color: #388e3c;
+}
+.badge {
+  font-family: 'Bangers', cursive;
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(80,170,255,0.10);
+}
+.section, .container {
+  background: none;
+}
+.bg-light {
+  background: linear-gradient(135deg, #e0f7fa 60%, #aee2ff 100%) !important;
+}
+.p-4.border.rounded.h-100.bg-white {
+  background: linear-gradient(135deg, #e0f7fa 60%, #aee2ff 100%) !important;
+  border: 3px solid #4fc3f7 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 2px 12px rgba(80,170,255,0.10);
+}
+footer {
+  background: linear-gradient(90deg, #4fc3f7 60%, #aee2ff 100%) !important;
+  border-top: 4px solid #4fc3f7;
+  color: #ff9800 !important;
+  font-family: 'Bangers', cursive;
+  text-shadow: 2px 2px 0 #fff, 0 0 8px #ff9800;
+}
+footer a {
+  color: #1976d2 !important;
+  text-shadow: none;
+}
+.modal-content {
+  background: linear-gradient(135deg, #e0f7fa 60%, #aee2ff 100%);
+  border: 3px solid #4fc3f7;
+  border-radius: 18px;
+}
+.modal-title {
+  font-family: 'Bangers', cursive;
+  color: #1976d2;
+  text-shadow: 1px 1px 0 #fff, 0 0 4px #4fc3f7;
+}
+.btn-close {
+  filter: drop-shadow(0 2px 2px #c9a100);
+}
