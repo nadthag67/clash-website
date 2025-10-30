@@ -8,12 +8,9 @@
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<<<<<<< HEAD
-=======
   <!-- Google Fonts: Fonte animada -->
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
->>>>>>> d435af8 (second commit)
   <!-- Custom styles -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -23,50 +20,33 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://via.placeholder.com/40x40.png?text=CR" alt="logo" class="me-2 rounded">
+        <img src="images/logo.jpg" alt="logo" class="me-2 rounded" width="40" height="40">
         ClashFan
       </a>
-<<<<<<< HEAD
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="#home">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="#cards">Cartas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#arena">Arena</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          
         </ul>
-=======
-      
-
-        <div class="d-flex ms-lg-3 gap-2">
-          <a href="#cards" class="btn btn-warning btn-sm">Ver Cartas</a>
+        <div class="d-flex ms-lg-3 gap-2 mt-3 mt-lg-0">
+          <a href="cartas.html" class="btn btn-warning btn-sm">Ver Cartas</a>
           <a href="#arena" class="btn btn-primary btn-sm">Ver Arena</a>
           <button class="btn btn-success btn-sm" onclick="window.location.href='https://clashroyale.com/'">Site Oficial</button>
           <button class="btn btn-info btn-sm" onclick="alert('Em breve mais recursos!')">Novidades</button>
         </div>
->>>>>>> d435af8 (second commit)
       </div>
     </div>
   </nav>
 
   <!-- Hero -->
-<<<<<<< HEAD
-  <header id="home" class="hero text-white text-center d-flex align-items-center">
-    <div class="container py-5">
-      <h1 class="display-5 fw-bold">Clash Royale Fanbase</h1>
-      <p class="lead mb-4">Uma base simples e organizada para um site com tema Clash Royale — construída com Bootstrap.</p>
-      <div>
-        <a href="#cards" class="btn btn-warning btn-lg me-2">Ver Cartas</a>
-        <a href="#sobre" class="btn btn-outline-light btn-lg">Saiba Mais</a>
-=======
   <header id="home" class="hero custom-hero-bg text-center d-flex align-items-center">
     <div class="container py-5">
-      <div class="clash-hero-container mx-auto p-4 rounded-4 shadow-lg d-inline-block position-relative">
-        <h3 class="display-5 fw-bold text-orange-outline mb-0 d-flex align-items-center gap-2">
-          Clash-Fan
+      <div class="clash-hero-container mx-auto p-4 rounded-4 shadow-lg d-inline-block position-relative text-center">
+        <h1 class="display-5 fw-bold text-orange-outline mb-2 d-flex align-items-center justify-content-center gap-2">
+          ClashFan
           <span class="clash-crown ms-2">
             <!-- SVG da coroa estilo Clash Royale -->
             <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,8 +56,12 @@
               <circle cx="32" cy="12" r="3" fill="#FFD700" stroke="#C9A100" stroke-width="1"/>
             </svg>
           </span>
-        </h3>
->>>>>>> d435af8 (second commit)
+        </h1>
+        <p class="lead mb-3">Uma base simples e organizada para um site com tema Clash Royale — construída com Bootstrap.</p>
+        <div>
+          <a href="#cards" class="btn btn-warning btn-lg me-2">Ver Cartas</a>
+          <a href="#sobre" class="btn btn-outline-dark btn-lg">Saiba Mais</a>
+        </div>
       </div>
     </div>
   </header>
@@ -87,21 +71,15 @@
     <div class="container">
       <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="h3">Cartas em Destaque</h2>
-<<<<<<< HEAD
-        <small class="text-muted">Exemplo de grid usando Bootstrap</small>
-=======
+       
         
-
-        
-        
->>>>>>> d435af8 (second commit)
       </div>
 
       <div class="row g-4">
         <!-- Card item (repetir conforme necessário) -->
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200.png?text=Gigante" class="card-img-top" alt="Gigante">
+            <img src="images/gigante.png" class="card-img-top" alt="Gigante">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Gigante</h5>
               <p class="card-text text-muted mb-4">Tanque de alto ponto de vida que ataca construções.</p>
@@ -115,7 +93,7 @@
 
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200.png?text=Arqueiras" class="card-img-top" alt="Arqueiras">
+            <img src="images/arqueiras.png" class="card-img-top" alt="Arqueiras">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Arqueiras</h5>
               <p class="card-text text-muted mb-4">Trio de atacantes de longo alcance, úteis contra tropas aéreas e terrestres.</p>
@@ -129,7 +107,7 @@
 
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200.png?text=Mago" class="card-img-top" alt="Mago">
+            <img src="images/mago.png" class="card-img-top" alt="Mago">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Mago</h5>
               <p class="card-text text-muted mb-4">Ataca em área com dano mágico.</p>
@@ -143,7 +121,7 @@
 
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="card h-100 shadow-sm">
-            <img src="https://via.placeholder.com/400x200.png?text=Balão" class="card-img-top" alt="Balão">
+            <img src="images/balao.png" class="card-img-top" alt="Balão">
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">Balão</h5>
               <p class="card-text text-muted mb-4">Ataca diretamente construções com alto dano.</p>
@@ -164,30 +142,10 @@
     <div class="container">
       <h2 class="h3 mb-3">Arena & Estratégias</h2>
       <div class="row g-4">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> d435af8 (second commit)
-        <div class="col-md-6">
-          <div class="p-4 border rounded">
-            <h5>Estratégias Básicas</h5>
-            <p class="mb-0 text-muted"> posicionamento de tropas e contra-ataques.</p>
-<<<<<<< HEAD
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="p-4 border rounded">
-            <h5>Decks Populares</h5>
-            <p class="mb-0 text-muted">Exemplos de composições de deck para várias arenas e estilos de jogo.</p>
-          </div>
-        </div>
-=======
-=======
         <!-- Arena 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <!-- Imagem da Arena 1 -->
-            <img src="images/arena 1.png" alt="Arena 1" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%201.png" alt="Arena 1" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Campo de Treinamento</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> Inicial</li>
@@ -195,13 +153,12 @@
               <li><strong>Cartas exclusivas:</strong> Nenhuma</li>
             </ul>
             <span class="badge bg-secondary">Arena 1</span>
->>>>>>> 230a674 (second commit)
           </div>
         </div>
         <!-- Arena 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <img src="images/arena 2.png" alt="Arena 2" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%202.png" alt="Arena 2" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Arena Goblin</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> 300 troféus</li>
@@ -214,7 +171,7 @@
         <!-- Arena 3 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <img src="images/arena 3.png" alt="Arena 3" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%203.png" alt="Arena 3" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Arena Bárbara</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> 600 troféus</li>
@@ -227,7 +184,7 @@
         <!-- Arena 4 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <img src="images/arena 4.png" alt="Arena 4" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%204.png" alt="Arena 4" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Arena P.E.K.K.A</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> 1000 troféus</li>
@@ -240,7 +197,7 @@
         <!-- Arena 5 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <img src="images/arena 5.png" alt="Arena 5" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%205.png" alt="Arena 5" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Arena Feitiço</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> 1400 troféus</li>
@@ -253,7 +210,7 @@
         <!-- Arena 6 -->
         <div class="col-md-6 col-lg-4">
           <div class="p-4 border rounded h-100 bg-white">
-            <img src="images/arena 6.png" alt="Arena 6" class="img-fluid mb-3" style="border-radius: 8px;"> <!-- Troque o src pela imagem desejada -->
+            <img src="images/arena%206.png" alt="Arena 6" class="img-fluid mb-3" style="border-radius: 8px;">
             <h5>Arena Selvagem</h5>
             <ul class="list-unstyled mb-2">
               <li><strong>Desbloqueio:</strong> 1800 troféus</li>
@@ -264,7 +221,6 @@
           </div>
         </div>
         <!-- Adicione mais arenas conforme necessário -->
->>>>>>> d435af8 (second commit)
       </div>
     </div>
   </section>

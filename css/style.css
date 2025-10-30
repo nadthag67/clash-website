@@ -1,11 +1,5 @@
 /* styles.css - customizações para a base Clash Royale */
 
-<<<<<<< HEAD
-/* Hero com fundo temático (use imagem sua se tiver) */
-.hero {
-    background: linear-gradient(180deg, rgba(6,21,41,0.9), rgba(11,46,77,0.85)), url('https://images.unsplash.com/photo-1601043232859-1f5a3b3f1b61?q=80&w=1600&auto=format&fit=crop&crop=faces') center/cover no-repeat;
-    min-height: 48vh;
-=======
 /* Importando fonte semelhante ao Clash Royale */
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
@@ -20,59 +14,39 @@ body, h1, h2, h3, h4, h5, h6, .navbar-brand {
 
 /* Hero com fundo temático (use imagem sua se tiver) */
 .hero {
-    background: linear-gradient(180deg, rgba(255, 11, 11, 0.9), rgba(11,46,77,0.85)), url('https://images.unsplash.com/photo-1601043232859-1f5a3b3f1b61?q=80&w=1600&auto=format&fit=crop&crop=faces') center/cover no-repeat;
- 
+    background: linear-gradient(180deg, rgba(11,46,77,0.85), rgba(6,21,41,0.65)), url('https://images.unsplash.com/photo-1601043232859-1f5a3b3f1b61?q=80&w=1600&auto=format&fit=crop&crop=faces') center/cover no-repeat;
     min-height: 48vh;
-
->>>>>>> d435af8 (second commit)
-  }
+}
   
-  /* Ajustes de contraste para textos sobre imagens */
-  .hero .lead {
-    opacity: 0.95;
-  }
+/* Ajustes de contraste para textos sobre imagens */
+.hero .lead {
+  opacity: 0.95;
+}
   
-  /* Card images fixas para manter layout */
-<<<<<<< HEAD
-  .card-img-top {
-=======
-  .card-img-top  {
->>>>>>> d435af8 (second commit)
-    height: 180px;
-    object-fit: cover;
-  }
+/* Card images fixas para manter layout */
+.card-img-top  {
+  height: 180px;
+  object-fit: cover;
+}
   
-  /* Sutil hover nas cartas */
-<<<<<<< HEAD
-=======
-  .card {
-    transition: box-shadow 0.3s, transform 0.2s;
-  }
->>>>>>> d435af8 (second commit)
-  .card:hover {
-    transform: translateY(-5px);
-    transition: transform 0.18s ease;
-  }
+/* Sutil hover nas cartas */
+.card {
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.18s ease;
+}
   
-  /* Footer link hover */
-  footer a:hover {
-    text-decoration: underline;
-  }
+/* Footer link hover */
+footer a:hover {
+  text-decoration: underline;
+}
   
-  /* Responsividade extras */
-  @media (max-width: 576px) {
-    .hero {
-      padding: 3rem 1rem;
-      min-height: 38vh;
-<<<<<<< HEAD
-    }
+/* Responsividade extras */
+@media (max-width: 576px) {
+  .hero {
+    padding: 3rem 1rem;
+    min-height: 38vh;
   }
-  
-=======
-    
-     
-    }
-
-   
-  }
->>>>>>> d435af8 (second commit)
+}

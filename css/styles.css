@@ -85,6 +85,18 @@ body {
 .card-text {
   color: #388e3c;
 }
+.card-img-top {
+  height: 150px; /* altura menor para reduzir o tamanho visual */
+  width: 100%;
+  object-fit: contain; /* preserva proporção sem cortar */
+  border-top-left-radius: 14px; /* combina com o border-radius do card */
+  border-top-right-radius: 14px;
+}
+@media (min-width: 992px) {
+  .card-img-top {
+    height: 170px;
+  }
+}
 .badge {
   font-family: 'Bangers', cursive;
   font-size: 1rem;
